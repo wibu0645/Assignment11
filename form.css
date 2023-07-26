@@ -1,0 +1,30 @@
+#formcol1 li {
+list-style: none;
+}
+label {
+margin-right: 0.3em;
+width: 6.3em;
+text-align: right;
+}
+
+/* form styling */
+input[type="text"] {
+  margin-bottom: 0.1em;
+}
+.form-instructions {
+  font-size: 14px;
+  color: red;
+  margin-bottom: 10px;
+}
+
+div#formcol1 {
+	float:left;	
+	width: 100%;
+}
+#formcol1 input.reqfield {
+background:#FF9;
+}
+
+select:focus, select:active, input:focus, input:active, input:focus + label,input:active + label, label[for]:focus, label[for]:active {
+color: #FFF !important;
+background-color: #BB3D2F !important;}
